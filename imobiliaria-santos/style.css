@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  color: #000;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.topo {
+  background-color: #afddfb;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.destaque {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.destaque h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.destaque p {
+  color: #1e90ff;
+}
+
+.sobre {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.sobre img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
+}
+
+.servicos {
+  background-color: #1e90ff;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.servicos h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.servicos span {
+  font-weight: bold;
+  color: yellow;
+}
+
+.servicos ul {
+  list-style: disc;
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.corretores {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.corretores img {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.corretores a {
+  color: blue;
+}
+
+.contato {
+  background-color: #1e90ff;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contato iframe {
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  border: none;
+  margin: 20px 0;
+}
+
+.chamada {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.destaque {
+  color: yellow;
+  font-weight: bold;
+}
+
+.botoes button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #afddfb;
+  font-size: 14px;
+}
+.destaque h1
+{
+    color: #000;
+}
